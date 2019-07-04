@@ -1,0 +1,61 @@
+<!-- 
+// DOM (document object model) 
+// Dev tools 
+// element inspect 
+// Box model
+///// box model Element width height Padding border margin 
+
+// About the ID and Class
+
+// CSS how to target html elements
+/ 1. universal selector *
+/ 2. tag names e.g. body, div, button
+/ 3. class names e.g. .bg-red
+/ 4. tag attribute e.g [type="password"]
+/ 5. id of the element e.g #main
+/ 6. mix and match e.g. body.bg-red  div#main.class-1 
+/ 7. inline styling e.g. <p style="color:red;">
+
+// An element can have multiple class separated by space.
+<div id="divID" class="class1 class2 class3"> 
+</div> 
+// But it can have only one id and id should be unique
+// Note priority is in reverse order
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Learning Dom element box model</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="outerBox" class="bg-red container">
+      <div
+        id="learningBox"
+        class="bg-red"
+        style="background: yellow; color: blue;"
+      >
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit,
+          atque cum dolorum perferendis culpa necessitatibus voluptates
+          veritatis expedita unde vitae tenetur facere ipsa ex voluptas
+          doloribus ipsum fuga voluptate harum! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Quas beatae laborum, unde, consequuntur
+          quasi sed at ut error architecto nostrum similique non debitis
+          accusantium doloremque nihil repellat itaque pariatur impedit? Lorem
+          ipsum, dolor sit amet consectetur adipisicing elit. Neque assumenda
+          perspiciatis suscipit ea provident quas, placeat, quisquam inventore
+          non ducimus maiores consequatur optio quidem amet unde odio ab, a id.
+        </p>
+        <button class="bg-red">
+          Hello a button
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

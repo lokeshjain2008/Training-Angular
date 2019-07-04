@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 980px;
+  margin: auto;
+}
+
+#learningBox {
+  padding: 10px;
+  /* border: 1px solid blueviolet; */
+  border-width: 5px;
+  border-style: double;
+  border-color: blueviolet;
+  border-top-color: brown;
+  margin: 10px;
+}
+
+#outerBox {
+  border: 5px solid magenta;
+  padding: 0 10px 0 10px;
+}
+
+.bg-red {
+  background: rgb(184, 154, 154);
+}

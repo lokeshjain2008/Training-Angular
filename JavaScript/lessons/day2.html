@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    html 5 semantics
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <article></article>
+      <aside></aside>
+    </main>
+    <footer>
+      <nav></nav>
+    </footer>
+  </body>
+</html>
+
+<!-- Forms creation the html 5 way  -->
+create a form 1. name 2. salary 3. website 4. color 5. account number
+constraints user should not be able to submit without filing.
+
+<div class="container">
+  <form action="#" novalidate>
+    <label for="1">name</label>
+    <input
+      type="text"
+      id="1"
+      placeholder="input your name"
+      required
+      autofocus
+    />
+
+    <label for="2">Account number</label>
+    <input type="password" id="2" placeholder="xx,xxxxx" required autofocus />
+
+    <input type="email" placeholder="your email username@gmail.com" />
+
+    <label for="3">salary</label>
+    <input
+      type="number"
+      min="50"
+      max="100"
+      id="3"
+      placeholder="your salary 33333"
+      required
+    />
+
+    <label for="4">color</label>
+    <input type="color" id="4" placeholder="your color" required />
+
+    <label for="5">website</label>
+    <input type="url" id="5" placeholder="your fav. website" required />
+
+    <input type="submit" value="submit your form" />
+  </form>
+</div>
+
+Task --- ------ type email, url, website, color, textarea radio checkbox
